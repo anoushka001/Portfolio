@@ -1,0 +1,210 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fefefe;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.79);
+  backdrop-filter: blur(5px);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.navbar {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+nav a:hover {
+  color: darkorange;
+}
+
+.home {
+  height: 100vh;
+  background-color: white;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  box-sizing: border-box;
+}
+.about {
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+.contact {
+  display: flex;
+  height: 100vh;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: white;
+}
+.project {
+  height: 100vh;
+  background-color: whitesmoke;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  box-sizing: border-box;
+}
+.skills {
+  height: 100vh;
+  background-color: white;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  box-sizing: border-box;
+}
+.home p {
+  font-family: "Press Start 2P", system-ui;
+  font-size: 11px;
+  text-align: center;
+  line-height: 2;
+  max-width: 800px;
+  margin: 20px auto;
+  color: gray;
+}
+.button-group {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.download {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 24px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  color: #111;
+  text-decoration: none;
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.explore {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 24px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  color: #111;
+  text-decoration: none;
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+.download:hover {
+  background-color: #f3f3f3;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+.explore:hover {
+  background-color: #f3f3f3;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  max-width: 450px;
+  width: 100%;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #fdfdfd;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  resize: vertical;
+}
+
+textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  resize: vertical;
+}
+
+input:focus {
+  outline: none;
+  border-color: black;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+.textarea:focus {
+  outline: none;
+  border-color: black;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+button {
+  padding: 12px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #357ab8;
+}
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+html {
+  scroll-behavior: smooth;
+}
