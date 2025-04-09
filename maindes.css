@@ -20,7 +20,7 @@ nav {
 
 .navbar {
   display: flex;
-  gap: 30px;
+  gap: 20px;
 }
 
 .navbar a {
